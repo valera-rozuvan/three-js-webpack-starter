@@ -1,0 +1,20 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  background-color: rgb(97, 89, 89);
+
+  #three-js-renderer {
+    margin: 0;
+    padding: 1em;
+    line-height: 0;
+    outline: none;
+    border: none;
+  }
+}

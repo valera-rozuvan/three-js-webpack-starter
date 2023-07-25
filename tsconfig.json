@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "baseUrl": "./",
+    "paths": {},
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  }
+}
