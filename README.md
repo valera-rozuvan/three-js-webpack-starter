@@ -7,12 +7,12 @@ an opinionated three js with webpack starter
 Using the following versions of NPM packages:
 
 - dependencies
-  - [three](https://www.npmjs.com/package/three) v0.154.0
+  - [three](https://www.npmjs.com/package/three) v0.161.0
 - devDependencies
-  - [sass](https://www.npmjs.com/package/sass) v1.64.1
-  - [webpack](https://www.npmjs.com/package/webpack) v5.88.2
-  - [typescript](https://www.npmjs.com/package/typescript) v5.1.6
-  - [@babel/core](https://www.npmjs.com/package/@babel/core) v7.22.9
+  - [sass](https://www.npmjs.com/package/sass) v1.70.0
+  - [webpack](https://www.npmjs.com/package/webpack) v5.90.0
+  - [typescript](https://www.npmjs.com/package/typescript) v5.3.3
+  - [@babel/core](https://www.npmjs.com/package/@babel/core) v7.23.9
   - a few others; see [package.json](./package.json)
 
 we aim to bootstrap a complete [Three.js](https://threejs.org/) development environment for coding in TypeScript. We want an option to create a build for production deployments, along with an option to quickly start a development server. The project uses [dart-sass](https://github.com/sass/dart-sass) for styling; `dart-sass` is compiled to JavaScript as a NPM package (see [sass](https://www.npmjs.com/package/sass)).
@@ -24,11 +24,9 @@ A strict requirement for this project is to keep the build as small as possible.
 You need at least v12.x of Node.js available. See [instructions](https://nodejs.org/en/download/) on how to set up Node.js locally. The author has tested this project using the following versions of Node.js:
 
 ```text
-v12.22.12
-v14.21.3
-v16.19.1
-v18.14.2
-v20.5.0
+v16.20.2
+v18.19.0
+v20.11.0
 ```
 
 ## Installing
